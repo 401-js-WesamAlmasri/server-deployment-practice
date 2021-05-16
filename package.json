@@ -1,0 +1,30 @@
+{
+  "name": "server-deployment-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --coverage --verbose",
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/401-js-WesamAlmasri/server-deployment-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/401-js-WesamAlmasri/server-deployment-practice/issues"
+  },
+  "homepage": "https://github.com/401-js-WesamAlmasri/server-deployment-practice#readme",
+  "dependencies": {
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "supertest": "^6.1.3"
+  }
+}
